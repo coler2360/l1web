@@ -1,29 +1,57 @@
 html {
-background-color: blue;
+    background-color: dimgrey;
+    background-image: url(Images/bg.jpg);
+    background-attachment: fixed;
 }
 
+
+
 * {
-    margin :0px;
+    margin: 0px;
     Padding: 0px;
 }
 
 nav {
-    background-color: black; 
-    margin: 10vh 0px;
+    background-color: white;
+    margin: 10vh 10px;
     display: flex;
 }
 
 nav a {
-    background-color: gold;
-    width: 10%;
-  
+    background-color: white;
+    width: 130%;
+
 }
 
 section {
     background-color: white;
     min-height: 50vh;
-    margin: 5vh 0px;
+    margin: 5vh auto;
     width: 70%;
+
+}
+
+.wrap {
+    display: flex;
+}
+
+h1 {
+    width: 100%;
+    display: block;
+}
+
+p {
+    /*   display: inline-block;*/
+    width: 70%;
+    vertical-align: top;
+}
+
+
+.box {
+    display: inline-block;
+    width: 30%;
+    height: 30vh;
+    background-color: black
 }
 
 footer {
