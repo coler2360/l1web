@@ -2,6 +2,7 @@ html {
     background-color: dimgrey;
     background-image: url(Images/bg.jpg);
     background-attachment: fixed;
+    background-size: 100vw 100vh;
 }
 
 
@@ -12,22 +13,41 @@ html {
 }
 
 nav {
+    margin: 300px;
     background-color: white;
-    margin: 10vh 10px;
     display: flex;
+    padding: 75px;
+   
 }
 
 nav a {
     background-color: white;
     width: 130%;
-
+    font-size: 600%;
 }
+
+
+
+.logo {
+    display: block;
+    margin: auto;
+    size: 40px 40px 
+    
+        
+}
+
+
+
+
+
 
 section {
     background-color: white;
     min-height: 50vh;
     margin: 5vh auto;
     width: 70%;
+    opacity: 0.4;
+  
 
 }
 
@@ -38,6 +58,7 @@ section {
 h1 {
     width: 100%;
     display: block;
+    text-shadow: 0 0 3px red;
 }
 
 p {
@@ -51,7 +72,7 @@ p {
     display: inline-block;
     width: 30%;
     height: 30vh;
-    background-color: black
+    background-color: black;
 }
 
 footer {
