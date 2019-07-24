@@ -3,7 +3,10 @@
     src: url(fonts/neo.ttf);
 }
 
-
+@font-face {
+    font-family: firefox;
+    src: url(fonts/Exo.ttf);
+}
 
 html {
     background-color: dimgrey;
@@ -33,14 +36,16 @@ nav {
     width: 60%;
     text-align: center;
 
+
 }
 
 
 
 p {
-    font-size: 25px;
+    font-size: 30px;
     text-align: left;
-    margin: 3%
+    margin: 3%;
+    font-family: firefox;
 }
 
 .rightNav a {
@@ -88,21 +93,22 @@ section {
 }
 
 .line {
-    height: 50vh;
+    height: 45vh;
     width: 0%;
     border-left: 1px solid white;
     box-shadow: 0px 0px 5px 1px deepskyblue;
 }
 
 .right {
-    width: 39%;
+    width: 36%;
     margin-bottom: 5vh;
 }
 
 .right img {
-    width: 90%;
+    width: 60%;
     display: block;
     margin: auto;
+
 }
 
 .wrap {
@@ -124,8 +130,8 @@ p {
     width: 90%;
     margin: 2vh auto;
     vertical-align: top;
-}
 
+}
 
 .box {
     /*
@@ -139,4 +145,19 @@ footer {
     /*
    
     background-color: deepskyblue; */
+}
+
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shop .item {
+    width: 25%;
+    margin: 2vh 2%;
+}
+
+.item img {
+    width: 100%;
 }
