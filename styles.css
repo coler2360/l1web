@@ -37,6 +37,7 @@ nav {
     text-align: center;
 
 
+
 }
 
 
@@ -52,7 +53,7 @@ p {
     font-size: 1em;
     color: white;
     text-decoration: none;
-    text-shadow: 0 0 4px rgb(60, 70, 119);
+    text-shadow: 0 0 7px deepskyblue;
     margin: 6%;
 
 }
@@ -161,3 +162,23 @@ footer {
 .item img {
     width: 100%;
 }
+
+
+.email {
+    font-family: firefox;
+    justify-content:center;
+    width: 100%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+
+.number {
+    font-family: firefox;
+    justify-content: center;
+    width:100%;
+    margin-left: 25px;
+    margin-bottom: 550px;
+}
+
+
